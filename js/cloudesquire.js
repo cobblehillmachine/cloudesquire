@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	window.scrollTo(0, 1);
+	//window.scrollTo(0, 1);
 	$('body').delay(500).fadeIn('slow');
 	$('#nav .nav-link:last').addClass('last');
 	$('#features .feature').each(function(i) {
@@ -47,7 +47,7 @@ function customSlideshow() {
         var left_indent = parseInt($('#slides ul').css('left')) + item_width;
  
         //slide the item           
-        $('#slides ul').animate({'left' : left_indent}, 400,function(){   
+        $('#slides ul').animate({'left' : left_indent}, 800,function(){   
  
             //move the last item and put it as first item              
             $('#slides li:first').before($('#slides li:last'));          
@@ -70,7 +70,7 @@ function customSlideshow() {
         var left_indent = parseInt($('#slides ul').css('left')) - item_width;
          
         //slide the item
-        $('#slides ul').animate({'left' : left_indent}, 400, function () {
+        $('#slides ul').animate({'left' : left_indent}, 800, function () {
              
             //move the first item and put it as last item
             $('#slides li:last').after($('#slides li:first'));                 
