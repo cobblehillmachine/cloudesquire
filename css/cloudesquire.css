@@ -2,9 +2,9 @@ body {margin:0; padding:0; width:100%; min-width:1000px; font-family: "brandon-g
 a {text-decoration:none; color:#676767;}
 a img {border:0;}
 ul {list-style:none; padding:0; margin:0;}
-input {webkit-appearance:none;}
+select {-webkit-appearance:none;}
 input[type='text'] {border:none; background:#fff; width:268px; height:30px; padding:10px; float:left; color:#676767; font:normal 13px "brandon-grotesque";}
-input[type='submit'] {border:none; text-transform:uppercase; color:#fff; font-size:13px; font-weight:bold; background:#81ba9b; padding:15px 25px; border-radius:20px; -moz-border-radius: 20px; -webkit-border-radius: 20px;}
+input[type='submit'] {-webkit-appearance:none; border:none; text-transform:uppercase; color:#fff; font-size:13px; font-weight:bold; background:#81ba9b; padding:15px 25px; border-radius:20px; -moz-border-radius: 20px; -webkit-border-radius: 20px;}
 input[type='submit']:hover {background:#a1d7ba;}
 p {margin:0; float:left;}
 textarea {resize:none;}
@@ -39,7 +39,7 @@ textarea {resize:none;}
 #carousel #slides ul {position:relative; width:10000px; height:422px;}
 #carousel #slides ul li {width:900px; height:422px; float:left;}
 #carousel .slide {float:left;}
-#carousel .caption {position:absolute; width:830px; background:url(../images/caption-bg.png) repeat; top:301px; color:#fff; height:96px; padding:25px 35px 0 35px;}
+#carousel .caption {float:left; width:830px; background:url(../images/caption-bg.png) repeat; top:301px; margin-top:-122px; color:#fff; height:96px; padding:25px 35px 0 35px; z-index:100;}
 #carousel .caption .big-title {float:left; font-size:42px; width:100%; margin-bottom:18px;}
 #carousel .caption .text {float:left; font-size:18px; font-weight:bold; text-transform:uppercase;}
 
@@ -89,7 +89,7 @@ form .label {float:left; font-size:13px; text-transform:uppercase; margin-bottom
 #account-create #form-cont .small {float:right; width:152px; margin-right:0;}
 #account-create #form-cont .small input[type='text'] {width:122px;}
 #account-create #address-cont {float:left; width:100%;}
-#account-create #acct_timezone {width:290px; float:left;}
+#account-create #acct_timezone {width:290px; float:left; border:1px solid #dadada; color:#666;}
 #account-create #acct_state {width:185px;  padding:18px;float:left; border:none; height:50px; background:url(../images/arrow-select.jpg) 107px 0 repeat-y; color:#666;}
 .styled-select {width:150px; float:left; overflow:hidden; border:1px solid #dadada; }
 #account-create #submit {float:left; width:100%;}

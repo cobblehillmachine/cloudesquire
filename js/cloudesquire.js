@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	//window.scrollTo(0, 1);
+	window.scrollTo(0, 1);
 	$('body').delay(500).fadeIn('slow');
 	$('#nav .nav-link:last').addClass('last');
 	$('#features .feature').each(function(i) {
